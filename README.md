@@ -1,4 +1,6 @@
-# demo_test
+# Python Data structure 
+## Assignment 10.2, week 6
+
 name = input('Enter a file name')
 
 if len(name) < 1: name = "mbox-short.txt"
