@@ -1,6 +1,6 @@
 # demo_test
-name = input('Enter a file name')
-if len(name) < 1: name = "mbox-short.txt"
+# name = input('Enter a file name')
+# if len(name) < 1: name = "mbox-short.txt"
 hand = open(name)
 counts = dict()
 for line in hand :
