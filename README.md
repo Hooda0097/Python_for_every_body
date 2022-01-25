@@ -6,9 +6,13 @@ if len(name) < 1: name = "mbox-short.txt"
 hand = open(name)
 
 counts = dict()
+
 for line in hand :
+
     line.rstrip()
+    
     if line.startswith('From ') :
+    
         wds = line.split()[5].split(':')
         counts[wds[0]] = counts.get(wds[0],0) + 1
     else :
